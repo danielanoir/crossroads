@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  .navBarTop {
+    width: 100%;
+    height: 60px;
+    background-color: #061b47;
+    .navText1{
+      color: white;
+      p {
+        margin: 0px;
+      }
+    }
+  }
+  .navBarTop2 {
+    width: 100%;
+    height: 150px;
+    background-color: #d9d9db;
+    .logo {
+      color: white;
+      margin: 0px;
+      padding: 10px;
+    }
+  }
+}
