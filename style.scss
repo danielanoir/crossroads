@@ -5,21 +5,50 @@ body {
     width: 100%;
     height: 60px;
     background-color: #061b47;
+    display: flex;
+    justify-content: center;
     .navText1{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
       color: white;
+      .logo {
+        color: white;
+        margin: 0px;
+        padding: 20px;
+      }
       p {
         margin: 0px;
+        padding: 20px;
       }
     }
   }
   .navBarTop2 {
+    z-index: 1000;
+    position: relative;
     width: 100%;
     height: 150px;
     background-color: #d9d9db;
-    .logo {
-      color: white;
-      margin: 0px;
-      padding: 10px;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    .navText2{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      color: black;
+      p {
+        margin: 0px;
+        padding: 20px;
+      }
+    }
+  }
+  .headerImageDiv {
+    z-index: 0;
+    position: absolute;
+    margin-top:-150px;
+    .headerImage {
+      width: 100%;
     }
   }
 }
