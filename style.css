@@ -6,7 +6,9 @@ body {
     height: 60px;
     background-color: #061b47;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    z-index: 1000;
+    position: relative; }
     body .navBarTop .navText1 {
       display: flex;
       flex-direction: row;
@@ -39,8 +41,9 @@ body {
   body .headerImageDiv {
     z-index: 0;
     position: absolute;
-    margin-top: -150px; }
+    margin-top: -210px; }
     body .headerImageDiv .headerImage {
-      width: 100%; }
+      width: 100%;
+      height: 100vh; }
 
 /*# sourceMappingURL=style.css.map */
