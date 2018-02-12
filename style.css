@@ -23,7 +23,6 @@ body {
         margin: 0px;
         padding: 20px; }
   body .navBarTop2 {
-    z-index: 1000;
     width: 100%;
     min-height: 10vw;
     max-height: 25vw;
@@ -40,45 +39,54 @@ body {
       body .navBarTop2 .navText2 p {
         margin: 0px;
         padding: 20px; }
-  body .headerImageDiv {
-    z-index: 0;
-    margin-top: -250px; }
-    body .headerImageDiv .headerImage {
-      background-image: url("./images/mountain_road.jpg");
-      background-repeat: no-repeat;
-      background-position: top;
-      width: 100%;
-      max-height: 100vh; }
-  body .aboutDiv {
+      body .navBarTop2 .navText2 p:hover {
+        font-weight: bold; }
+  body .aboutContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 50%;
-    min-width: 450px;
-    min-height: 600px;
-    margin: auto;
-    padding: 50px; }
-    body .aboutDiv .aboutTitle {
-      color: #061b47;
-      font-size: 2.6vmax;
-      padding: 20px 0px 0px 0px;
-      margin: 0px; }
-    body .aboutDiv .underlineTitle {
-      width: 35vmax;
-      color: #061b47;
-      margin-top: 0px;
-      margin-bottom: 0px; }
-    body .aboutDiv .aboutSubTitle {
-      color: #2d2d2d;
-      font-size: 2vmax;
-      margin: 0px; }
-    body .aboutDiv .aboutText {
-      color: #2d2d2d;
-      font-size: 20px;
-      padding-top: 40px; }
+    align-items: center; }
+    body .aboutContainer .headerImageDiv {
+      margin-top: -250px;
+      height: 900px;
+      max-height: 100vh;
+      width: 100%;
+      background-image: url("./images/mountain_road.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    body .aboutContainer .aboutDiv {
+      width: 50%;
+      min-width: 450px;
+      min-height: 600px;
+      margin: auto;
+      padding: 50px;
+      text-align: center; }
+      body .aboutContainer .aboutDiv .aboutTitle {
+        color: #061b47;
+        font-size: 2.6vmax;
+        padding: 20px 0px 0px 0px;
+        margin: 0px; }
+      body .aboutContainer .aboutDiv .underlineTitle {
+        width: 35vmax;
+        color: #061b47;
+        margin-top: 0px;
+        margin-bottom: 0px; }
+      body .aboutContainer .aboutDiv .aboutSubTitle {
+        color: #2d2d2d;
+        font-size: 2vmax;
+        margin: 0px; }
+      body .aboutContainer .aboutDiv .aboutText {
+        color: #2d2d2d;
+        font-size: 20px;
+        padding-top: 40px; }
+  body .roomsAndRates {
+    border: solid red;
+    width: 100%;
+    height: 100vh;
+    display: none; }
   body .footerDiv {
-    background-color: black;
+    background-color: #191919;
     color: white;
     width: 100%;
     height: 300px;
