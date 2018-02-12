@@ -103,8 +103,32 @@ body {
   }
 }
 
-.roomsAndRates {
+.roomsAndRatesContainer {
   border: solid red;
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+.theAreaContainer {
+  border: solid green;
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+.addOnsContainer {
+  border: solid yellow;
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+.directionsContainer {
+  border: solid purple;
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+.contactContainer {
+  border: solid blue;
   width: 100%;
   height: 100vh;
   display: none;
